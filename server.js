@@ -4,7 +4,7 @@ const express = require('express');
 const todoLib = require("./backend/Lib/todoLib");
 const todoModel = require("./backend/models/todoModel");
 const app = express();
-const port = process.env.PORT || 5555;
+const port = process.env.PORT || 3000;
 const options = {
 	extensions:['htm','html','css','js','ico','jpg','jpeg','png','svg','pdf'],
 	index:['index.html'],
